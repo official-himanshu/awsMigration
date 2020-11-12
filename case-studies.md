@@ -1,5 +1,5 @@
 # Case-studies
-###1. YAMAHA
+## 1. YAMAHA
 	Established in 1960 as Yamaha International Corporation, Yamaha Corporation of America (YCA) offers a full line of musical instruments and audio/visual products to the U.S. market. YCA is a wholly-owned subsidiary of Yamaha Corporation, Japan, and is one of the largest global subsidiary companies. The company had been managing all of its applications and infrastructure internally, with one data center at headquarters in Buena Park, CA, used primarily as a backup facility, and all production, test and development systems running in a colocation arrangement at an AT&T hosted data center in Irvine, CA.
 
 	#### Problem
@@ -29,7 +29,7 @@
 
 
 
-###2. Spotify (est. 2006) 
+### 2. Spotify (est. 2006) 
 	Spotify is a media services provider primarily focused on its audio-streaming platform, which lets users search for, listen to, and share music and podcasts.
 
 #### Migration Objective 
@@ -39,11 +39,11 @@
 	Spotify invested two years pre-migration in preparing, assigning a dedicated Spotify/Google cloud migration team to oversee the effort. Ultimately, they split the effort into two parts, services and data, which took a year apiece. For services migration, engineering teams moved services to the cloud in focused two-week sprints, pausing on product development. For data migration, teams were allowed to choose between “forklifting” or rewriting options to best fit their needs. Ultimately, Spotify’s on-premise to cloud migration succeeded in increasing scalability while freeing up developers to innovate. 
 
 #### Key Takeaways
-#####Gaining stakeholder buy-in is crucial.
+##### Gaining stakeholder buy-in is crucial.
 	Spotify was careful to consult its engineers about the vision. Once they could see what their jobs looked like in the future, they were all-in advocates. 
-#####Migration preparation shouldn’t be rushed. 
+##### Migration preparation shouldn’t be rushed. 
 	Spotify’s dedicated migration team took the time to investigate various cloud strategies and build out the use case demonstrating the benefits of cloud computing to the business. They carefully mapped all dependencies. They also worked with Google to identify and orchestrate the right cloud strategies and solutions. 
-#####Focus and dedication pay huge dividends. 
+##### Focus and dedication pay huge dividends. 
 	Spotify’s dedicated migration team kept everything on track and in focus, making sure everyone involved was aware of past experience and lessons already learned. In addition, since engineering teams were fully focused on the migration effort, they were able to complete it more quickly, reducing the disruption to product development.
 
 
@@ -70,7 +70,7 @@
 
 	2. A database server that logs and archives the data coming in from offshore into a database. A tape drive is used to take daily backups of the database, the tapes are stored off-site.
 
-	#### Methodlogy used by the company B
+#### Methodlogy used by the company B
 
 	Stage 1: In this stage basically they gather all there documents related to there system under investigation.
 	
@@ -81,13 +81,14 @@
 	stage4: The results from the above two stages were used to produce a poster. The poster was presented to Company B’s employees and six semi-structured interviews were performed at their offices. The interviews started by giving the interviewees an overview of Amazon EC2 as they were only partially familiar with this technology. Each interview was recorded and a transcript of each interview was produced. Each transcript was read be two researchers (one present at the interview and one not) and a number of issues were identified and agreed using a stakeholder impact analysis. Stakeholder impact analysis is a method of identifying potential sources of benefits and risks from the perspectives of multiple stakeholders, and is performed by analyzing interview transcripts.
 
 
-	#### Results 
-	##### cost of on-premises
-	Company C paid £104,000 to Company B for the system in 2005, £19,400 of which was for the system’s infrastructure; the rest of the costs were for system development and deployment. The infrastructure included two servers (each having two Intel Xeon 3.4GHz processors, 2GB RAM, 6 x 72GB hard drives in a RAID 10 array resulting in around 200GB of effective storage, Windows Server 2003 OS), a tape drive, network equipment, a server rack, shelf spares. In addition, Company C pays £43,000 per year to Company B for system support and maintenance, £3,600 of which is for the running costs of the system infrastructure. Over a five year period, the total cost of the system infrastructure is therefore: £19,400 + (5 x £3,600) = £37,400.
+#### Results 
+	cost of on-premises
+	
+	->Company C paid £104,000 to Company B for the system in 2005, £19,400 of which was for the system’s infrastructure; the rest of the costs were for system development and deployment. The infrastructure included two servers (each having two Intel Xeon 3.4GHz processors, 2GB RAM, 6 x 72GB hard drives in a RAID 10 array resulting in around 200GB of effective storage, Windows Server 2003 OS), a tape drive, network equipment, a server rack, shelf spares. In addition, Company C pays £43,000 per year to Company B for system support and maintenance, £3,600 of which is for the running costs of the system infrastructure. Over a five year period, the total cost of the system infrastructure is therefore: £19,400 + (5 x £3,600) = £37,400.
 
-	#### Estimated cost over cloud The following specifications were used to calculate the costs of running the system on AWS: two Microsoft Windows On-Demand instance (AWS do not offer reserved instances for Windows) in Europe running 730 hours per month (i.e. 24x7); 20GB data transfer in; 20GB data transfer out; 200GB EBS storage (i.e. amount of effective storage on existing servers), 100 million EBS I/O request; 30GB EBS snapshot storage (for daily backups); 10 snapshot GET requests (in case backups need to be retrieved); 30 snapshot PUT requests (for daily backups).
+	->Estimated cost over cloud The following specifications were used to calculate the costs of running the system on AWS: two Microsoft Windows On-Demand instance (AWS do not offer reserved instances for Windows) in Europe running 730 hours per month (i.e. 24x7); 20GB data transfer in; 20GB data transfer out; 200GB EBS storage (i.e. amount of effective storage on existing servers), 100 million EBS I/O request; 30GB EBS snapshot storage (for daily backups); 10 snapshot GET requests (in case backups need to be retrieved); 30 snapshot PUT requests (for daily backups).
 
-	#### Comparison of cost
+#### Comparison of cost
 
 
 	Comparison of infrastructure costs between
@@ -107,28 +108,28 @@ Period 		2 small  |   1 small+1 large   |   2 large  |   Company B on premises
 
 
 
-##4 Crate & Barrel’s
+## 4 Crate & Barrel’s
 
-####Problem
+#### Problem
 Crate & Barrel’s traditional managed hosting platform couldn’t keep up with the rate of online customer demand.
 
-####Goal
+#### Goal
 They wanted a platform that could scale with demand to improve the customer experience.
 
-####Solution
+#### Solution
 They migrated their environment to AWS, decommissioning their data center and setting them up for a successful holiday shopping season.
 
-###About Crate and Barrel
+### About Crate and Barrel
 Crate and Barrel is an industry-leading home furnishings specialty retailer, known for its exclusive designs, excellent value and superb customer service. In addition to a thriving direct marketing division that services more than 90 countries, the company operates stores throughout the U.S. and Canada as well as international franchise locations in Mexico, Peru, Philippines, Russia, Singapore, Taiwan, Turkey and the United Arab Emirates. Working directly with European ateliers and factories, Crate and Barrel was among the first to introduce affordable household goods and contemporary home décor to American consumers. Founded in 1962, the brand’s essence has translated perfectly to the omnichannel era more than 50 years after opening its first store. The Crate and Barrel family of brands, which includes CB2 and The Land of Nod, is owned by Otto Group, a global retail and services group based in Hamburg, Germany.
 
-####The business challenges & 2nd Watch solution
+#### The business challenges & 2nd Watch solution
 After over a decade of operation on traditional managed hosting platforms, Crate and Barrel’s eCommerce operation was faced with the need for a more nimble and cost effective hosting solution. The decision was made to migrate to the AWS platform, and 2nd Watch was selected as the migration and managed services partner.
 
 The 2nd Watch professional services team migrated all three Crate and Barrel web and e-commerce properties from a traditional hosting facility to AWS, DECOMMISSIONING ONE DATA CENTER AND 25 SERVERS, and setting the company up for a successful holiday season. The teams worked through the design and implementation challenges that go along with migrating web properties to AWS, devised a migration strategy, and BUILT THE INFRASTRUCTURE IN THE NEW AWS ENVIRONMENT USING AWS EC2, RDS, ELB AND S3, INCLUDING A MIX OF SQL SERVER EC2 AND RDS INSTANCES IN BOTH PRODUCTION AND NON-PRODUCTION ENVIRONMENTS. Additionally, 2nd Watch implemented Cloud Protection Manager for snapshots/backups and assisted Crate & Barrel in transitioning its Land of Nod commerce site to its primary Crate & Barrel domain, decommissioned its mobile sites, and implemented autoscaling on its brand sites.
 
 Today, the 2nd Watch managed cloud team supports Crate & Barrel’s AWS environment through management and optimization services.
 
-####The business benefits
+#### The business benefits
 Crate and Barrel will gain the flexibility and elasticity that comes with an AWS environment. The new environment has the ability to scale up on demand and handle hundreds of checkouts per minute. George Findling, Director of Emerging Technology, noted that the migration performed flawlessly through Black Friday and Cyber Monday without a single technical or operational incident.
 
 By deploying the new environment on AWS, Crate and Barrel is able to take advantage of on-demand compute, scaling up and down as needed for the shopping season without oversubscribed capital purchases. The company anticipates significant reduction in the eCommerce platform monthly operating cost by migrating to AWS with the help of 2nd Watch.
@@ -166,7 +167,7 @@ By deploying the new environment on AWS, Crate and Barrel is able to take advant
 	c). They use EKS for containerization deployment.
 
 
-	###1. Application migration:- For application migration, the cloud related changes are done to make sure that all application are ready for cloud deployment and enablement. All the application which are re-architecured are based on AWS kafka. They also done other enhancement like they update the java version and weblogic servers.
+	1. Application migration:- For application migration, the cloud related changes are done to make sure that all application are ready for cloud deployment and enablement. All the application which are re-architecured are based on AWS kafka. They also done other enhancement like they update the java version and weblogic servers.
 
-	###2. Database Migration:- They migrate there Instance of Oracle SQL and MySQL on AWS Aurora/RDS with the help of DMS. And the DB which are not compatiable are hosted over Amazon EC2. Snowball devices are used for data transfer which has more than 1TB of data. 100+ TB of data migrated from on-premises to AWS.
+	2. Database Migration:- They migrate there Instance of Oracle SQL and MySQL on AWS Aurora/RDS with the help of DMS. And the DB which are not compatiable are hosted over Amazon EC2. Snowball devices are used for data transfer which has more than 1TB of data. 100+ TB of data migrated from on-premises to AWS.
 
