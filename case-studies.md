@@ -2,19 +2,19 @@
 ## 1. YAMAHA
 	Established in 1960 as Yamaha International Corporation, Yamaha Corporation of America (YCA) offers a full line of musical instruments and audio/visual products to the U.S. market. YCA is a wholly-owned subsidiary of Yamaha Corporation, Japan, and is one of the largest global subsidiary companies. The company had been managing all of its applications and infrastructure internally, with one data center at headquarters in Buena Park, CA, used primarily as a backup facility, and all production, test and development systems running in a colocation arrangement at an AT&T hosted data center in Irvine, CA.
 
-	#### Problem
-		Yamaha was spending too much time replacing hardware and handling routine maintenance tasks and too much budget on buying capacity.
+#### Problem
+	Yamaha was spending too much time replacing hardware and handling routine maintenance tasks and too much budget on buying capacity.
 
-	#### Goal
-		They wanted their IT people to spend 70% of their time on new initiatives and only 30% on routine maintenance activities.
+#### Goal
+	They wanted their IT people to spend 70% of their time on new initiatives and only 30% on routine maintenance activities.
 
-	#### Solutions
-		They migrate their production systems to AWS and manage the environment, saving the company $500,000 annually and freeing their IT people to get important projects done.
+#### Solutions
+	They migrate their production systems to AWS and manage the environment, saving the company $500,000 annually and freeing their IT people to get important projects done.
 
-	#### Challenges of on-premises infrastructure
+#### Challenges of on-premises infrastructure
 	With 30-month replacement cycles for its leased hardware, the Yamaha IT infrastructure group was spending too much time replacing hardware and handling routing maintenance tasks such as patching Windows servers. “We really need our IT people spending 70% of their time on new initiatives and only 30% on routine maintenance activities, yet that wasn’t happening,” says Vimal Thomas, VP, Information Technology Division, at Yamaha. IT was also buying 30% more capacity than was needed or used, to guarantee performance and uptime, wasting budget that could have been used in other areas.
 
-	#### Journey to the cloud
+#### Journey to the cloud
 	Yamaha had a rapid timeline for moving its infrastructure to AWS, as Thomas wanted the process to be complete prior to an important ERP upgrade to Oracle R12. Yamaha and 2nd Watch began by migrating the development and testing systems to AWS. By August 2014, all production systems aside from Oracle and Cisco Voice had been moved to the cloud. Due to some uncertainties about how Oracle would run on AWS, Yamaha decided to keep the ERP system running internally, though Thomas says it will eventually migrate to the cloud as well. 2nd Watch also helped Yamaha configure database mirroring in MS SQL 2008 to ensure high availability.
 
 	Additionally, 2nd Watch is providing ongoing services to Yamaha, including configuring AWS availability zones for data replication and disaster recovery, designing file system backup, designing scripts to automate the shutdown and startup process of non-production systems, identifying AWS management tools for hosts, networks, security and storage, network design and security and overall design/configuration of AWS EBS and AWS Elastic IP.
@@ -141,7 +141,7 @@ By deploying the new environment on AWS, Crate and Barrel is able to take advant
 
 
 
-##5 Aspire Systems
+## 5 Aspire Systems
 
 ### Need of on-premises data center
 	a). Upfront hardware and software cost.
