@@ -55,7 +55,7 @@
 
 
 
-###3. Cloud Migration: A Case Study of Migrating an Enterprise IT System to IaaS
+### 3. Cloud Migration: A Case Study of Migrating an Enterprise IT System to IaaS
 
 	This case study explain the potential benefits and risks associated with the migration of an IT system in the
 	oil & gas industry from an in-house data center to Amazon EC2 from a broad variety of stakeholder
