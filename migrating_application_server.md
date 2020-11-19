@@ -34,4 +34,4 @@ SMS has several advantages over traditional migration approach-
 
 You can see these steps in given below figure.
 
-![SMS image]()
+![SMS image](https://github.com/official-himanshu/awsMigration/blob/master/untitled.png)
